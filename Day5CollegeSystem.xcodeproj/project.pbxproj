@@ -10,6 +10,7 @@
 		3922710122B1B5EE00799BE3 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3922710022B1B5EE00799BE3 /* Student.swift */; };
 		3922710322B1B6DF00799BE3 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3922710222B1B6DF00799BE3 /* Person.swift */; };
 		3922710522B1B71900799BE3 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3922710422B1B71900799BE3 /* main.swift */; };
+		3922713D22B301FA00799BE3 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3922713C22B301FA00799BE3 /* File.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +30,7 @@
 		3922710022B1B5EE00799BE3 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
 		3922710222B1B6DF00799BE3 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		3922710422B1B71900799BE3 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		3922713C22B301FA00799BE3 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				3922710022B1B5EE00799BE3 /* Student.swift */,
 				3922710222B1B6DF00799BE3 /* Person.swift */,
 				3922710422B1B71900799BE3 /* main.swift */,
+				3922713C22B301FA00799BE3 /* File.swift */,
 			);
 			path = Day5CollegeSystem;
 			sourceTree = "<group>";
@@ -127,6 +130,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3922710322B1B6DF00799BE3 /* Person.swift in Sources */,
+				3922713D22B301FA00799BE3 /* File.swift in Sources */,
 				3922710122B1B5EE00799BE3 /* Student.swift in Sources */,
 				3922710522B1B71900799BE3 /* main.swift in Sources */,
 			);

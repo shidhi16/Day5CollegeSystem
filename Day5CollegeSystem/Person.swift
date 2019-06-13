@@ -19,9 +19,25 @@ enum Gender
 
 class Person
 {
-    var id: Int
-    {
+    //var id: Int
+    private var id: String?
+        
+    var uniqueID: Int
+        
+        {
+        get
+        {
+         return 
+        }
+        set
+        {
+            self.id = "C\(newValue)"
+        }
+    }
+    
+    
         //private _id: Int
+    
         get{
             return self.id
         }
@@ -32,10 +48,10 @@ class Person
     }
     var firstName: String?
     var lastName: String?
-    var fullName : String?
-    {
-        return "\(firstName!) \(lastName!)"
-    }
+    //var fullName : String
+    //{
+      //  return "\(firstName!) \(lastName!)"
+    //}
     var gender: Gender
     var birthDate: Date?
     var email: String?
@@ -45,6 +61,7 @@ class Person
         print("init() of Person")
         self.firstName = String()
         self.lastName = String()
+        self.fullName = String()
         self.gender = Gender.OTHER
         self.birthDate = Date()
         self.email = String()
